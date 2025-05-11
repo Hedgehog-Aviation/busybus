@@ -5,7 +5,7 @@ from PyQt5 import QtWidgets, QtGui, QtCore
 from google.transit import gtfs_realtime_pb2
 
 # Replace with your actual API key
-API_KEY = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJyVDRub1k4NW5HSkxIbkFXRDN4MnJza1VxZ3QzemtUbGxXV1hBWWR0RDVvIiwiaWF0IjoxNzQ2Nzc3MDU2fQ.jqBsD4F3FAOEtVnquL-iJKOYqct10PNk-AQ3Gh2MUDI"
+API_KEY = "your key here"
 HEADERS = {"Authorization": f"apikey {API_KEY}"}
 
 BUS_STOP_ID = "200923"  # Union Square, Harris Street
