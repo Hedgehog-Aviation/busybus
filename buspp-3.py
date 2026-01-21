@@ -8,7 +8,7 @@ from google.transit import gtfs_realtime_pb2
 API_KEY = "your key here"
 HEADERS = {"Authorization": f"apikey {API_KEY}"}
 
-BUS_STOP_ID = "200923"  # Union Square, Harris Street
+BUS_STOP_ID = ""  # Replace with your actual stop id, find it on the routemap here https://transportnsw.info/routes/details/sydney-buses-network
 REALTIME_URL = "https://api.transport.nsw.gov.au/v1/gtfs/realtime/buses"
 VEHICLE_POSITIONS_URL = "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/buses"
 ROUTES_URL = "https://api.transport.nsw.gov.au/v1/routes"
@@ -153,3 +153,4 @@ if __name__ == '__main__':
     viewer = BusDisplayApp()
     viewer.show()
     sys.exit(app.exec_())
+
